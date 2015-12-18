@@ -73,7 +73,7 @@
     CTFontRef myFont = CTFontCreateWithName( (CFStringRef)@"Helvetica-Bold", 12.0f, NULL);
     
     UIColor *fontColor;
-    if ((count < 100) && count > 10) fontColor = [UIColor blackColor];
+    if ((count <= 100) && count > 10) fontColor = [UIColor blackColor];
     else fontColor = [UIColor whiteColor];
     
     NSDictionary *attributesDict = [NSDictionary dictionaryWithObjectsAndKeys:
