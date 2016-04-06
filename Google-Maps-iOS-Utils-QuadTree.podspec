@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
 		     :tag => "0.1" }
   s.source_files = '{QuadTree,Clustering,Projection}/**/*.{h,m}'
   s.requires_arc = true
-
+  s.dependency "GoogleMaps"
 end
