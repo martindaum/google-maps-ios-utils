@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/thedazed/google-maps-ios-utils.git",
 		     :tag => "0.1" }
   s.source_files = '{QuadTree,Clustering,Projection}/**/*.{h,m}'
-  s.dependency 'GoogleMaps'
   s.requires_arc = true
     s.pod_target_xcconfig = {
     # issue: @orta: In simple, if a library is not dynamic and you're trying to use it with frameworks you can use it, but you cannot use it as a dependency of something else via CocoaPods.
