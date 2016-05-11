@@ -11,7 +11,7 @@
 @property(nonatomic, assign) CLLocationCoordinate2D position;
 
 @property (nonatomic,strong) GMSMarker *marker;
-
+@property (nonatomic, readonly) id <GClusterItem> originalItem;
 /**
  * Controls whether this marker will be shown on map.
  */
