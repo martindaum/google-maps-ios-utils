@@ -23,6 +23,10 @@
     return _point;
 }
 
+- (id <GClusterItem>)originalItem {
+    return _item;
+}
+
 - (id)copyWithZone:(NSZone *)zone {
     GQuadItem *newGQuadItem = [[self class] allocWithZone:zone];
     newGQuadItem->_point = _point;
